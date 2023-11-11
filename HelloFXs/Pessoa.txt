@@ -1,0 +1,4 @@
+asdas@asdas	123	asdas	12312312	13550.0	false
+asdas@asdasss	123	Arolldo	12312332	13550.0	false
+asdas@qwert	123	Calebe	111.222.333.44	nãoPossui	true
+Carlao@gmail.com	123	Carlao	111.222.333.44	nãoPossui	true

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegistrarVooController">
+   <children>
+      <Button layoutX="200.0" layoutY="225.0" mnemonicParsing="false" onAction="#cadastrarVoo" text="Cadastrar" />
+      <Button layoutX="283.0" layoutY="224.0" mnemonicParsing="false" onAction="#voltarParaMenu" prefHeight="26.0" prefWidth="66.0" text="Voltar" />
+      <Label fx:id="nomeLabel" layoutX="14.0" layoutY="14.0" prefHeight="18.0" prefWidth="260.0" text="." />
+      <TextField fx:id="partidaTextField" layoutX="14.0" layoutY="59.0" promptText="Partida" />
+      <TextField fx:id="destinoTextField" layoutX="199.0" layoutY="59.0" promptText="Destino" />
+      <TextField fx:id="dataIdaTextField" layoutX="14.0" layoutY="100.0" promptText="Data Ida" />
+      <TextField fx:id="dataVoltaTextField" layoutX="200.0" layoutY="100.0" promptText="Data Volta" />
+      <TextField fx:id="valorMilhasTextField" layoutX="402.0" layoutY="140.0" promptText="Valor Milhas" />
+      <TextField fx:id="valorReaisTextField" layoutX="402.0" layoutY="100.0" promptText="Valor Reais" />
+      <TextField fx:id="assentosTextField" layoutX="402.0" layoutY="59.0" promptText="Assentos" />
+      <TextField fx:id="horaIdaTextField" layoutX="14.0" layoutY="140.0" promptText="Hora Ida" />
+      <TextField fx:id="horaVoltaTextField" layoutX="200.0" layoutY="140.0" promptText="Hora Volta" />
+      <Line endX="100.0" startX="-100.0" />
+      <Line endX="100.0" startX="-100.0" />
+   </children>
+</AnchorPane>

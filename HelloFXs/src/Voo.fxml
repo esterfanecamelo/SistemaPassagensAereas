@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.VooController">
+   <children>
+      <Button fx:id="voltarButton" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#voltarAoInicio" prefHeight="25.0" prefWidth="84.0" text="Voltar" />
+      <TableView fx:id="tabelaVoos" layoutX="3.0" layoutY="70.0" prefHeight="174.0" prefWidth="594.0">
+        <columns>
+            <TableColumn fx:id="dataPartidaColuna" prefWidth="75.0" text="Data-P" />
+            <TableColumn fx:id="horarioPartidaColuna" prefWidth="64.0" text="Horário-P" />
+            <TableColumn fx:id="partidaColuna" prefWidth="68.0" text="Partida" />
+            <TableColumn fx:id="dataDestinoColuna" prefWidth="91.0" text="Data-D" />
+            <TableColumn fx:id="horarioDestinoColuna" prefWidth="61.0" text="Horário-D" />
+            <TableColumn fx:id="destinoColuna" prefWidth="69.0" text="Destino" />
+            <TableColumn fx:id="valorReaisColuna" prefWidth="47.0" text="R$" />
+            <TableColumn fx:id="valorMilhasColuna" prefWidth="55.0" text="Milhas" />
+            <TableColumn fx:id="assentosColuna" prefWidth="63.0" text="Assentos" />
+        </columns>
+      </TableView>
+      <Button fx:id="comprarVoo" layoutX="349.0" layoutY="343.0" mnemonicParsing="false" onAction="#comprarVoo" prefHeight="26.0" prefWidth="244.0" text="Continuar Comprar" />
+      <Label fx:id="mensagemLabel" layoutX="6.0" layoutY="244.0" prefHeight="46.0" prefWidth="594.0" />
+      <Line endX="11.400001525878906" endY="30.5" layoutX="107.0" layoutY="290.0" startX="11.4000244140625" startY="110.0" />
+      <Line endX="493.0" layoutX="106.0" layoutY="321.0" startX="-106.99998474121094" />
+      <Line endX="70.29995727539062" endY="80.0" layoutX="263.0" layoutY="320.0" startX="70.29995727539062" startY="1.5" />
+      <Label layoutX="195.0" layoutY="298.0" prefHeight="18.0" prefWidth="58.0" text="Adicional:" />
+      <Label layoutX="387.0" layoutY="281.0" prefHeight="34.0" prefWidth="186.0" text="Continuar para compra e forma de pagamento:" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="nomeClienteLabel" layoutX="6.0" layoutY="335.0" prefHeight="18.0" prefWidth="112.0" />
+      <Label layoutX="33.0" layoutY="298.0" prefHeight="18.0" prefWidth="58.0" text="Menu:" />
+      <Label layoutX="14.0" layoutY="24.0" text="Buscar Voos" />
+      <TextField layoutX="91.0" layoutY="20.0" prefHeight="7.0" prefWidth="133.0" promptText="Partida" />
+      <TextField fx:id="destinoTextField" layoutX="259.0" layoutY="20.0" promptText="Destino" />
+      <Button layoutX="450.0" layoutY="20.0" mnemonicParsing="false" onAction="#procurarVoosButton" text="Procurar" />
+      <ChoiceBox fx:id="assentosChoiceBox" layoutX="240.0" layoutY="329.0" prefHeight="26.0" prefWidth="84.0" />
+      <Label alignment="CENTER" layoutX="135.0" layoutY="327.0" prefHeight="34.0" prefWidth="74.0" text="Assentos disponíveis" textAlignment="CENTER" textFill="#030303" wrapText="true" />
+      <Label fx:id="assentosEscolhidosLabel" layoutX="124.0" layoutY="360.0" prefHeight="34.0" prefWidth="199.0" text="." wrapText="true" />
+   </children>
+</AnchorPane>

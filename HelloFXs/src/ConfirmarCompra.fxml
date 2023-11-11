@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ConfirmarCompraController">
+   <children>
+      <Label fx:id="nomeLabel" layoutX="9.0" layoutY="15.0" prefHeight="18.0" prefWidth="370.0" text="." />
+      <Label fx:id="formaDePagamentoLabel" layoutX="356.0" layoutY="261.0" prefHeight="18.0" prefWidth="224.0" />
+      <Label fx:id="vooEscolhidoLabel" layoutX="9.0" layoutY="90.0" prefHeight="18.0" prefWidth="370.0" text="." />
+      <Label fx:id="saldoLabel" layoutX="9.0" layoutY="49.0" prefHeight="42.0" prefWidth="370.0" text="." />
+      <Label layoutX="18.0" layoutY="296.0" prefHeight="18.0" prefWidth="150.0" text="Cadastre o(s) passagéiro(s)" textAlignment="CENTER" textFill="#006cff" />
+      <CheckBox fx:id="hotelCheckBox" layoutX="14.0" layoutY="367.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="105.0" text="Hotel" />
+      <CheckBox fx:id="bagagemExtraCheckBox" layoutX="300.0" layoutY="367.0" mnemonicParsing="false" text="BagagemExtra" />
+      <CheckBox fx:id="aluguelDeCarroCheckBox" layoutX="181.0" layoutY="367.0" mnemonicParsing="false" text="Aluguel De Carro" />
+      <CheckBox fx:id="primeiraClasseCheckBox" layoutX="74.0" layoutY="367.0" mnemonicParsing="false" text="Primeira Classe" />
+      <Button layoutX="398.0" layoutY="97.0" mnemonicParsing="false" onAction="#confirmarCompra" prefHeight="26.0" prefWidth="114.0" text="Confirmar Compra" textFill="#151515" />
+      <Label fx:id="totalLabel" layoutX="395.0" layoutY="138.0" prefHeight="26.0" prefWidth="174.0" text="Valor total...">
+         <font>
+            <Font name="Franklin Gothic Medium" size="17.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="opcaoDoAssentoSelecionadoChoiseBox" layoutX="404.0" layoutY="363.0" prefHeight="26.0" prefWidth="78.0" />
+      <Label layoutX="421.0" layoutY="341.0" prefHeight="18.0" prefWidth="50.0" text="Assento:" wrapText="true" />
+      <Button layoutX="537.0" layoutY="23.0" mnemonicParsing="false" onAction="#voltarParaMenu" prefHeight="26.0" prefWidth="50.0" text="Voltar" />
+      <CheckBox fx:id="milhasCheckBox" layoutX="459.0" layoutY="70.0" mnemonicParsing="false" text="Milhas" />
+      <CheckBox fx:id="cartaoCheckBox" layoutX="398.0" layoutY="70.0" mnemonicParsing="false" text="Cartão" />
+      <Line endX="260.99993896484375" layoutX="339.0" layoutY="288.0" startX="-339.0" />
+      <Line endX="491.00006103515625" endY="-35.399993896484375" layoutX="108.0" layoutY="207.0" startX="-108.99998474121094" startY="-35.399993896484375" />
+      <Label fx:id="comentariosLabel" layoutX="18.0" layoutY="191.0" prefHeight="78.0" prefWidth="562.0" textFill="RED" wrapText="true" />
+      <Button layoutX="398.0" layoutY="40.0" mnemonicParsing="false" onAction="#verificarValor" prefHeight="26.0" prefWidth="114.0" text="Verificar Valor" />
+      <TextField fx:id="nomeTextField" layoutX="14.0" layoutY="324.0" prefHeight="26.0" prefWidth="98.0" promptText="Nome" />
+      <Label fx:id="passageiroLabel" layoutX="238.0" layoutY="328.0" prefHeight="17.0" prefWidth="149.0" text="Passageiro:" />
+      <TextField fx:id="cpfTextField" layoutX="123.0" layoutY="324.0" prefHeight="26.0" prefWidth="98.0" promptText="CPF" />
+      <Button layoutX="488.0" layoutY="362.0" mnemonicParsing="false" onAction="#salvarPassageiro" prefHeight="26.0" prefWidth="98.0" text="Salvar " />
+      <Button layoutX="398.0" layoutY="11.0" mnemonicParsing="false" onAction="#apagarDados" prefHeight="26.0" prefWidth="114.0" text="Apagar Dados" />
+      <Label fx:id="valorVoo" layoutX="9.0" layoutY="117.0" prefHeight="42.0" prefWidth="370.0" text="." />
+      <Label layoutX="105.0" prefHeight="18.0" prefWidth="102.0" text="Dados da compra" textFill="#002bff" />
+      <Line endX="69.30001831054688" endY="55.09999084472656" layoutX="318.0" layoutY="117.0" startX="69.30001831054688" startY="-120.89999389648438" />
+   </children>
+</AnchorPane>

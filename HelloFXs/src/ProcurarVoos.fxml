@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ProcurarVoosController">
+   <children>
+      <Label layoutX="62.0" layoutY="73.0" prefHeight="18.0" prefWidth="338.0" text="Digite o voo que você deseja modificar:" />
+      <TextField fx:id="cidadePartidaTextField" layoutX="62.0" layoutY="151.0" promptText="Partida" />
+      <TextField fx:id="cidadeDestinoTextField" layoutX="250.0" layoutY="151.0" promptText="Destino" />
+      <TextField fx:id="dataIdaTextField" layoutX="62.0" layoutY="200.0" promptText="Data Ida" />
+      <TextField fx:id="horaIdaTextField" layoutX="251.0" layoutY="200.0" promptText="Hora ida" />
+      <Button layoutX="496.0" layoutY="151.0" mnemonicParsing="false" onAction="#procurarVoo" text="Procurar" />
+      <Button layoutX="495.0" layoutY="199.0" mnemonicParsing="false" onAction="#voltarParaMenu" prefHeight="26.0" prefWidth="61.0" text="Voltar" />
+   </children>
+</AnchorPane>

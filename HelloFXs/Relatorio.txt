@@ -1,0 +1,10 @@
+asdas@asdas	12312312	false	true	true	false	ruan	12323	500.2	1	rj	sp	2004/02/25	2004/02/26	09:20	10:20	200.2	1000	35	false
+asdas@asdas	12312312	false	true	true	false	ruan	12323	500.2	1	rj	sp	2004/02/25	2004/02/26	09:20	10:20	200.2	1000	35	false
+asdas@asdas	12312312	true	false	false	true	Rui	35564	600.2	2	rj	sp	2004/02/25	2004/02/26	09:20	10:20	200.2	1000	35	false
+asdas@asdasss	12312332	true	false	true	false	carol	321232	450.2	6	rj	sp	2004/02/25	2004/02/26	09:20	10:20	200.2	1000	35	true
+asdas@asdasss	12312332	false	true	true	false	maria	0980383	500.2	7	rj	sp	2004/02/25	2004/02/26	09:20	10:20	200.2	1000	35	true
+asdas@asdasss	12312332	true	true	false	false	dawqe	12312312	350.2	1	rj	sp	2004/02/25	2004/02/26	09:20	10:20	200.2	1000	35	true
+asdas@asdas	12312312	false	false	true	true	Marisol	092138	750.2	3	rj	sp	2004/02/25	2004/02/26	09:20	10:20	200.2	1000	35	false
+asdas@asdasss	12312332	false	false	false	false	kkjhk	87896	200.2	8	rj	sp	2004/02/25	2004/02/26	09:20	10:20	200.2	1000	35	true
+asdas@asdasss	12312332	true	true	false	false	Carlos	12321354	350.2	1	rj	sp	2004/02/25	2004/02/26	09:20	10:20	200.2	1000	35	true
+asdas@asdas	12312312	false	false	false	false	Ramon	54757888	200.2	4	rj	sp	2004/02/25	2004/02/26	09:20	10:20	200.2	1000	35	false

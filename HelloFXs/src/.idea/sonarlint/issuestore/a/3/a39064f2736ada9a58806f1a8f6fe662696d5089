@@ -1,0 +1,10 @@
+
+b
+java:S2259Ü"LA "NullPointerException" could be thrown; "vooSelecionado" is nullable here.(Ð¹Õ6
+˜
+java:S1186å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’µ°Á
+Q	java:S125="<This block of commented-out lines of code should be removed.(·ÍÍö
+€
+java:S4087–"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(µÖ€’8³®ÿÊ1
+[	java:S106˜"9Replace this use of System.out or System.err by a logger.(Ãï—˜ÿÿÿÿÿ8å¯ÿÊ1
+^	java:S125¾"<This block of commented-out lines of code should be removed.(³–Ëµøÿÿÿÿ8•²ÿÊ1

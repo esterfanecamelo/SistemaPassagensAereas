@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.VerVooController">
+   <children>
+      <Button fx:id="voltarButton" layoutX="496.0" layoutY="20.0" mnemonicParsing="false" onAction="#voltarAoInicio" prefHeight="25.0" prefWidth="84.0" text="Voltar" />
+      <TableView fx:id="tabelaVoos" layoutX="3.0" layoutY="70.0" prefHeight="174.0" prefWidth="594.0">
+        <columns>
+            <TableColumn fx:id="dataPartidaColuna" prefWidth="75.0" text="Data-P" />
+            <TableColumn fx:id="horarioPartidaColuna" prefWidth="64.0" text="Horário-P" />
+            <TableColumn fx:id="partidaColuna" prefWidth="68.0" text="Partida" />
+            <TableColumn fx:id="dataDestinoColuna" prefWidth="91.0" text="Data-D" />
+            <TableColumn fx:id="horarioDestinoColuna" prefWidth="61.0" text="Horário-D" />
+            <TableColumn fx:id="destinoColuna" prefWidth="69.0" text="Destino" />
+            <TableColumn fx:id="valorReaisColuna" prefWidth="47.0" text="R$" />
+            <TableColumn fx:id="valorMilhasColuna" prefWidth="55.0" text="Milhas" />
+            <TableColumn fx:id="assentosColuna" prefWidth="63.0" text="Assentos" />
+        </columns>
+      </TableView>
+      <Label fx:id="mensagemLabel" layoutX="6.0" layoutY="244.0" prefHeight="46.0" prefWidth="594.0" />
+      <Line endX="493.0" layoutX="106.0" layoutY="321.0" startX="-106.99998474121094" />
+      <Label fx:id="nomeAdminLabel" layoutX="6.0" layoutY="335.0" prefHeight="18.0" prefWidth="112.0" />
+      <Label layoutX="14.0" layoutY="24.0" text="Relatorio de Voos" />
+      <Label alignment="CENTER" layoutX="97.0" layoutY="327.0" prefHeight="46.0" prefWidth="112.0" textAlignment="CENTER" textFill="#030303" wrapText="true" />
+      <Label fx:id="MensagemLabel" layoutX="269.0" layoutY="336.0" prefHeight="34.0" prefWidth="199.0" text="." wrapText="true" />
+      <Button layoutX="468.0" layoutY="336.0" mnemonicParsing="false" onAction="#mostrarRelatoriosAdmin" prefHeight="34.0" prefWidth="112.0" text="Detalhes do Voo" />
+   </children>
+</AnchorPane>

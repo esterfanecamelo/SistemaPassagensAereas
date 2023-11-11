@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminCenaController">
+   <children>
+      <Label fx:id="labelNome" layoutX="32.0" layoutY="31.0" prefHeight="18.0" prefWidth="306.0" text="." />
+      <Button fx:id="inserirVoosButton" layoutX="492.0" layoutY="56.0" mnemonicParsing="false" onAction="#inserirVoos" prefHeight="26.0" prefWidth="94.0" text="Inserir Voos" />
+      <Button fx:id="removerVoosButton" layoutX="492.0" layoutY="93.0" mnemonicParsing="false" text="Remover Voos" />
+      <Button fx:id="procurarVoosButton" layoutX="492.0" layoutY="130.0" mnemonicParsing="false" onAction="#procurarVoos" prefHeight="26.0" prefWidth="94.0" text="Procurar Voos" />
+      <Button layoutX="492.0" layoutY="206.0" mnemonicParsing="false" onAction="#mudarParaTela1" prefHeight="26.0" prefWidth="94.0" text="Voltar" />
+      <Button fx:id="procurarVoosButton1" layoutX="492.0" layoutY="167.0" mnemonicParsing="false" onAction="#verificarVoos" prefHeight="26.0" prefWidth="94.0" text="Relatorios" />
+   </children>
+</AnchorPane>
